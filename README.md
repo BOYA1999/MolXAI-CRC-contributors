@@ -39,6 +39,4 @@ The first command checks the core risk-control implementation. The second recomp
 
 Manuscript text, supplementary information, publication tables, captions, figures, and figure-generation scripts are maintained only in the separate submission workspace. Raw B-XAIC, Graph Attribution, and Polaris molecule tables are obtained from their upstream sources. Fine-tuned checkpoints and the CheMeleon foundation checkpoint are not redistributed. Predictions are released without SMILES; row identity is retained by the frozen zero-based test index. Per-cell execution JSON files were excluded because they recorded local checkpoint paths; the complete 330-row method comparison and the timing/statistical summaries needed for paper-level verification are retained.
 
-## License and archival status
 
-Repository-authored code and documentation are released under the MIT License. Third-party datasets, models, and software remain under their own terms. This local release candidate does not claim a repository URL, DOI, or public deposit; those fields must be completed only after an actual archive is created.
